@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         "Poppins": ["Poppins"],
+        "Playfair" : ['Playfair Display'],
       },
     },
   },
