@@ -89,3 +89,10 @@
     flex-direction: column;
   }
 }
+
+a #start-btn{
+  background-color: green;
+  color: #fff;
+  width: 100px;
+  padding: 10px 30px;
+}
