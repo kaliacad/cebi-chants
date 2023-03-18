@@ -1,0 +1,23 @@
+import Image from "next/image";
+
+export default function Home() {
+  return (
+    <div className="flex flex-col justify-center h-screen ">
+      <div className="flex flex-col items-center">
+        <h1 className=" font-normal text-3xl ">Il est digne de louange.</h1>
+        <h2 className=" font-normal text-xl ">Recueil de chants chretiens</h2>
+      </div>
+      <div className=" flex justify-evenly items-center flex-wrap ">
+        <p className=" hidden sm:block sm:w-[30vw] text-sm ">
+          « Entretenez-vous par des psaumes, par des hymnes, et par des
+          cantiques spirituels, chantant et célébrant de tout votre cœur les
+          louanges du Seigneur » <span className=" font-Playfair " >Ephésiens 5.19</span>
+        </p>
+        <Image src="/images/image 3LandingImage.png" width={250} height={200} />
+      </div>
+      <div className=" flex justify-center items-center " >
+      <button className=" bg-[#23A840] w-40 h-10 text-white font-medium rounded-lg " >Démarrer</button>
+      </div>
+    </div>
+  );
+}
