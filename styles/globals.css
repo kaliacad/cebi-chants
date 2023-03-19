@@ -9,6 +9,14 @@
     font-family: "Poppins", sans-serif;
     letter-spacing: -0.40px;
   }
+  section{
+    background-image : url('../public/images/Bg.png');
+    width : 100wh;
+    height : 100vh;
+    overflow : hidden;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
 
 html,
