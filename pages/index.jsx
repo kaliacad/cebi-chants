@@ -1,5 +1,6 @@
 import Image from "next/image";
-import bg from "/public/images/Bg.png"
+import Link from "next/link";
+import bg from "/public/images/Bg.png";
 export default function Home() {
   return (
     <section className="flex flex-col justify-center h-screen" style={{backgroundImage: `url(${bg})`}}>
@@ -16,7 +17,9 @@ export default function Home() {
         <Image src="/images/image 3LandingImage.png" width={250} height={200} />
       </div>
       <div className=" flex justify-center items-center " >
-      <button className=" bg-[#23A840] w-40 h-10 text-white font-medium rounded-lg " >Démarrer</button>
+      <Link href={'/dashboard'}>
+        <button className=" bg-[#23A840] w-40 h-10 text-white font-medium rounded-lg " >Démarrer</button>
+      </Link>
       </div>
     </section>
   );

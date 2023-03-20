@@ -1,0 +1,11 @@
+#startbtn{
+  background-color: green;
+  color: #fff;
+  text-align: center;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+.link {
+  text-decoration: none;
+}
