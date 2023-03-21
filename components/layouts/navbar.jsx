@@ -34,9 +34,9 @@ const NavBar = () => {
       {menus.map((elt, index) => {
         return (
           <div
-            className="flex justify-center items-center text-[10px]  "
+            className="flex justify-center items-center text-[10px] hover:text-Jaune "
             key={index}
-          >
+          > 
             <Link
               href={elt.path}
               className="flex flex-col justify-center items-center"
