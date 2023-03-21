@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
       <Header />
       <div className=" flex  gap-4">
         <NavBar />
-        {children}
+        <main className=" mt-[7rem] ml-[7em] " >{children}</main>
       </div>
     </div>
   );

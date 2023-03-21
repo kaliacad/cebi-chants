@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <div className="flex sm:pl-10 sm:pr-10 p-4 h-[5rem] sm:h-[6rem]  justify-between items-center bg-gradient-to-r from-yellow-500 to-white  ">
+    <div className="flex fixed z-10 w-screen sm:pl-10 sm:pr-10 p-4  h-[5rem] sm:h-[6rem]  justify-between items-center bg-gradient-to-r from-yellow-500 to-white  ">
       <div className=" text-white ">
         <h1 className=" font-bold text-3xl ">Bienvenu !</h1>
         <p className=" font-light " >Colossiens 6</p>
