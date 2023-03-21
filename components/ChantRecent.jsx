@@ -2,7 +2,9 @@ import React from 'react'
 
 const ChantRecent = () => {
   return (
-    <div>ChantRecent</div>
+    <div className='w-20 h-20 bg-slate-100 rounded-lg'>
+      
+    </div>
   )
 }
 
