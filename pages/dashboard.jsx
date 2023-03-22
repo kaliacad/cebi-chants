@@ -4,40 +4,40 @@ import ChantPopulaire from "../components/ChantPopulaire"
 import ChantRecent from "../components/ChantRecent"
 import Image from "next/image";
 
-const chantpopulaires = [
-  {
-    name: "Home",
-    background: "",
-  },
-  {
-    name: "Recherche",
-    background: "",
-  },
-  {
-    name: "Bibliotheque",
-    background: "",
-  },
-  {
-    name: "Apropos",
-    background: "",
-  },
-];
 const chantRecents = [
   {
-    name: "Home",
-    background: "",
+    name: "A Dieu soit la gloire",
+    background: <Image src={"/images/pixel2.jpg"} />,
   },
   {
-    name: "Recherche",
-    background: "",
+    name: "Dieu d'amour Dieu de toutes grâces",
+    background: <Image src={"/images/pixel1.jpg"} />,
   },
   {
-    name: "Bibliotheque",
-    background: "",
+    name: "A Dieu soit la gloire",
+    background: <Image src={"/images/pixel2.jpg"} />,
   },
   {
-    name: "Apropos",
-    background: "",
+    name: "A Dieu soit la gloire",
+    background: <Image src={"/images/pixel1.jpg"} />,
+  },
+];
+const chantpopulaires = [
+  {
+    name: "Dieu d'amour Dieu de toutes grâces",
+    background: <Image src={"/images/pixel1.jpg"} />,
+  },
+  {
+    name: "A Dieu soit la gloire",
+    background: <Image src={"/images/pixel2.jpg"} />,
+  },
+  {
+    name: "Dieu d'amour Dieu de toutes grâces",
+    background: <Image src={"/images/pixel1.jpg"} />,
+  },
+  {
+    name: "A Dieu soit la gloire",
+    background: <Image src={"/images/pixel2.jpg"} />,
   },
 ];
 const categories = [
