@@ -2,66 +2,6 @@ import Search from "../components/Search"
 import Categories from "../components/Categories"
 import ChantPopulaire from "../components/ChantPopulaire"
 import ChantRecent from "../components/ChantRecent"
-import Image from "next/image";
-
-const chantRecents = [
-  {
-    name: "A Dieu soit la gloire",
-    background: <Image src={"/images/pixel2.jpg"} />,
-  },
-  {
-    name: "Dieu d'amour Dieu de toutes grâces",
-    background: <Image src={"/images/pixel1.jpg"} />,
-  },
-  {
-    name: "A Dieu soit la gloire",
-    background: <Image src={"/images/pixel2.jpg"} />,
-  },
-  {
-    name: "A Dieu soit la gloire",
-    background: <Image src={"/images/pixel1.jpg"} />,
-  },
-];
-const chantpopulaires = [
-  {
-    name: "Dieu d'amour Dieu de toutes grâces",
-    background: <Image src={"/images/pixel1.jpg"} />,
-  },
-  {
-    name: "A Dieu soit la gloire",
-    background: <Image src={"/images/pixel2.jpg"} />,
-  },
-  {
-    name: "Dieu d'amour Dieu de toutes grâces",
-    background: <Image src={"/images/pixel1.jpg"} />,
-  },
-  {
-    name: "A Dieu soit la gloire",
-    background: <Image src={"/images/pixel2.jpg"} />,
-  },
-];
-const categories = [
-  {
-    name: "Louange",
-    icon: <Image src={"/images/ph_hands-clapping-thin.png"} width={25} height={30} />,
-    background: "Vert",
-  },
-  {
-    name: "Adoration",
-    icon: <Image src={"/images/ph_hands-praying-thin.png"} width={25} height={30} />,
-    background: "Rouge",
-  },
-  {
-    name: "Action de grâce",
-    icon: <Image src={"/images/ph_hands-clapping-thin.png"} width={25} height={30} />,
-    background: "Bleu",
-  },
-  {
-    name: "Sanctification",
-    icon: <Image src={"/images/ph_hands-praying-thin.png"} width={25} height={30} />,
-    background: "Violet",
-  },
-];
 
 function dashboard() {
   return (
@@ -71,7 +11,7 @@ function dashboard() {
         <span className="text-lg font-bold">Categories</span>
         <span className="text-md text-Jaune mr-20">Voir plus</span>
       </div>
-      <div className="flex gap-4">
+      <div >
         <Categories />
       </div>
       <div className="my-4">
