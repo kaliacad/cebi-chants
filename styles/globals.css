@@ -11,20 +11,6 @@
     padding: 0;
     margin: 0;
   }
-<<<<<<< HEAD
-  section {
-    background-image: url("../public/images/Bg.png");
-    width: 100wh;
-    height: 100vh;
-    overflow: hidden;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-
-  .gradiant {
-    background: linear-gradient(to right, #e6b800, #b0da4d , #ffffff 50%);
-  }
-=======
   #LandingpageSection {
     background-image: url('../public/images/Bg.png');
     width: 100wh;
@@ -40,5 +26,7 @@
           background-repeat: no-repeat;
         }
     }
->>>>>>> 33e1c75 (feat : add Search component content)
+    .gradiant {
+      background: linear-gradient(to right, #e6b800, #b0da4d, #ffffff 50%);
+    }
 }
