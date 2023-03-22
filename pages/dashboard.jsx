@@ -1,8 +1,10 @@
-
+import SongList from "../components/SongList";
 
 function dashboard() {
   return (
-    <div>dashboard</div>
+    <div>
+      <SongList />
+    </div>
   )
 }
 
