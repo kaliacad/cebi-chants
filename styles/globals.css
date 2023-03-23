@@ -23,4 +23,10 @@
   .gradiant {
     background: linear-gradient(to right, #e6b800, #b0da4d , #ffffff 50%);
   }
+
+  .side-title{
+    font-family: 'Poppins', sans-serif;
+  }
 }
+
+

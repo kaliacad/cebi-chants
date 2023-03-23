@@ -2,7 +2,7 @@ import SongList from "../components/SongList";
 
 function dashboard() {
   return (
-    <div>
+    <div className=" max-h-screen max-w-screen ">
       <SongList />
     </div>
   )
