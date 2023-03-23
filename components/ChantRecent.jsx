@@ -12,6 +12,7 @@ const chantRecents = [
     categorie : 'Louange'
   },
   {
+    name: "Dieu d'amour",
     background: "/images/pexels2.jpg",
     categorie : 'Louange'
   },
@@ -133,18 +134,18 @@ const chantRecents = [
 ];
 const ChantRecent = () => {
     return (
-      <div className='flex gap-4 overflow-hidden w-screen overflow-x-scroll tailwind-scrollbar-hide
+      <div className='flex gap-4 overflow-hidden overflow-x-scroll tailwind-scrollbar-hide
          scrollbar-hide noscroll'>
              {
             chantRecents.map( ( el, ind ) => {
                 return (
                   <div key={ ind } className='text-center'>
-                    <div className='w-20 h-20 rounded-lg bg-cover'
+                    <div className='w-24 h-24 tablette:w-36 tablette:h-36 rounded-lg bg-cover'
                       style={ { backgroundImage: `url(${ el.background })` } }>
                     </div>
                     <div className='flex flex-col'>
-                      <span className='text-[8px] font-semi-bold'>{ el.name }</span>
-                      <span className='text-[6px]'>{ el.categorie }</span>
+                      <span className='text-[8px] tablette:text-sm font-semi-bold'>{ el.name }</span>
+                      <span className='text-[6px] tablette:text-[10px]'>{ el.categorie }</span>
                     </div>
                 </div>   
                 )})}

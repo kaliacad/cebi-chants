@@ -106,11 +106,12 @@ const categories = [
 ];
 const Categories = () => {
   return (
-    <div className='flex gap-4 overflow-hidden w-screen overflow-x-scroll tailwind-scrollbar-hide scrollbar-hide noscroll'>
+    <div className='flex gap-4 overflow-hidden overflow-x-scroll 
+    tailwind-scrollbar-hide scrollbar-hide noscroll'>
       { categories.map( ( el, ind ) => {
         return (
-          <div key={ind}>
-            <div className={ styles[ el.background ] + ' rounded-lg w-20 h-20 flex flex-col justify-center items-center gap-2'}>
+          <div key={ind} className=''>
+            <div className={ styles[ el.background ] + ' rounded-lg w-24 h-24 tablette:w-36 tablette:h-36 flex flex-col justify-center items-center gap-2'}>
             <span>{ el.icon}</span>
             <span className='text-[10px]'>{ el.name}</span>
           </div>

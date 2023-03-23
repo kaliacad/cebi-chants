@@ -11,21 +11,21 @@ function dashboard() {
           <Search />
       </div>
       
-      <div className="flex justify-between my-4">
+      <div className="flex justify-between mb-6">
         <span className="text-lg font-bold">Categories</span>
         <span className="text-md text-Jaune ">Voir plus</span>
       </div>
-      <div className="w-[800px]">
+      <div className="w-[800px] mb-10">
         <Categories />
       </div>
-      <div className="my-4">
+      <div className="my-4 pt-4 border-t-2">
         <span className="text-lg font-bold">Chants Populaires</span>
       </div>
-      <div className="w-[800px]">
+      <div className="w-[800px] mb-10">
         <ChantPopulaire />
       </div>
-      <div className="my-4">
-        <span className="text-lg font-bold m">Chants Recents</span>
+      <div className="my-4 pt-4 border-t-2">
+        <span className="text-lg font-bold mt-2">Chants Recents</span>
       </div>
       <div className="w-[800px]">
         <ChantRecent />

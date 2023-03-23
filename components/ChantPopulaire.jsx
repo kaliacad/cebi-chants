@@ -101,15 +101,15 @@ const chantpopulaires = [
 
 const ChantPopulaire = () => {
   return (
-    <div className='flex gap-4 overflow-hidden w-screen overflow-x-scroll tailwind-scrollbar-hide
+    <div className='flex gap-4 boder-b-2 overflow-hidden overflow-x-scroll tailwind-scrollbar-hide
          scrollbar-hide noscroll'>
           { chantpopulaires.map( ( el, ind ) => {
             return (
               <div key={ind}>
-                <div className='w-56 h-48 rounded-xl bg-cover px-2 pt-20 text-center'
+                <div className='w-80 h-72 tablette:w-96 tablette:h-80 rounded-xl bg-cover px-2 py-48 text-center'
                   style={ { backgroundImage: `url(${ el.background })` } } 
                   >
-                  <span className='text-lg font-bold text-white m-auto'>
+                  <span className='text-lg tablette:text-2xl font-bold text-white text-center my-auto'>
                     { el.name }
                   </span> 
                 </div>
