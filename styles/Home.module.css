@@ -9,3 +9,27 @@
 .link {
   text-decoration: none;
 }
+
+.rouge {
+  background-color: #FE3B00;
+}
+
+.vert {
+  background-color: #A3BA90;
+}
+
+.jaune {
+  background-color: #D2A700;
+}
+
+.violet {
+  background: #e0a1e1;
+}
+
+.blue {
+  background-color: #549EA3;
+}
+
+.gris {
+  background-color: #656565;
+}

@@ -11,6 +11,7 @@ module.exports = {
         Poppins: ["Poppins"],
         Playfair: ["Playfair Display"],
       },
+      
       colors: {
         Jaune: "#D2A700",
         Vert: "#A3BA90",
@@ -20,6 +21,14 @@ module.exports = {
         Gris: "#656565",
       },
     },
+     screens: {
+      mobile: '480px',
+      tablette: '768px',
+      laptop: '976px',
+      desktop: '1440px'
+    },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 };

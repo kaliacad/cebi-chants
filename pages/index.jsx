@@ -3,7 +3,7 @@ import Link from "next/link";
 import bg from "/public/images/Bg.png";
 export default function Home() {
   return (
-    <section className="flex flex-col justify-center h-screen" style={{backgroundImage: `url(${bg})`}}>
+    <section id="LandingpageSection" className="flex flex-col justify-center h-screen" style={{backgroundImage: `url(${bg})`}}>
       <div className="flex flex-col items-center">
         <h1 className=" font-normal text-3xl ">Il est digne de louange.</h1>
         <h2 className=" font-normal text-xl ">Recueil de chants chretiens</h2>

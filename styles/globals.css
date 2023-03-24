@@ -11,12 +11,10 @@
     padding: 0;
     margin: 0;
   }
-  section {
-    background-image: url("../public/images/Bg.png");
+  #LandingpageSection {
+    background-image: url('../public/images/Bg.png');
     width: 100wh;
     height: 100vh;
-    overflow: hidden;
-    background-size: contain;
     background-repeat: no-repeat;
   }
 
@@ -27,6 +25,16 @@
   .side-title{
     font-family: 'Poppins', sans-serif;
   }
+
+  @media (min-width: 840px) {
+    #LandingpageSection {
+        background-image: url('../public/images/Bg.png');
+        width: 100wh;
+        height: 100vh;
+        background-size : contain;
+        background-repeat: no-repeat;
+      }
+  }  
 }
 
 
