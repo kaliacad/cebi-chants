@@ -46,25 +46,30 @@ const SongList = () => {
     ]
     
   return (
-    <div>
+    <div className="mx-auto">
     
-        <aside className="flex flex-col content-end justify-between gap-4">
-            <h3 className="side-title text-2xl font-semibold">Tous les chants</h3>
-            <div className="flex flex-col gap-6">
+        <aside className="flex flex-col  justify-between gap-4 sm:w-96">
+            <h3 className="text-xs pl-3 font-normal sm:text-xl sm:pl-7 md:max-xl:text-2xl sm:font-medium md:font-semibold md:pl-4 max-xl:font-bold">Tous les chants</h3>
+            <div className="flex flex-col justify-center items-center gap-4 mx-auto w-80 
+            sm:w-96 md:max-xl:w-full">
             {
                 chants?.map((item, id) => (
-                <div key={id} className="bg-gray-400 flex justify-between gap-4 pt-3 pr-5 pb-3 pl-5 rounded-md">
-                    <div className="flex justify-center items-center gap-4">
-                        <span>{item.order}</span>
-                        <div className="rounded-full bg-white h-12 w-12">
+                <div key={id} className="bg-gray-200 flex justify-between py-2 px-2 md:py-3 md:px-3 rounded-md w-72 text-xs sm:text-xs md:text-sm font-light
+                sm:w-80 md:w-11/12">
+                    {/* sm:gap-8 sm:pt-3 sm:px-5 sm:pb-3 */}
+                    <div className="flex justify-center items-center gap-2 md:gap-4">
+                        <span className="sm:text-sm md:text-base">{item.order}</span>
+                        <div className="rounded-full bg-white h-5 w-5 md:h-12 md:w-12
+                        sm:h-10 sm:w-10 md:max-xl:h-12 
+                        md:max-xl:w-12">
                             {/* <img src="" alt="s" /> */}
                         </div>
                         <div className="flex flex-col">
-                            <span>{item.title}</span>
-                            <span>{item.type}</span>
+                            <span className="font-normal leading-none">{item.title}</span>
+                            <span className="text-slate-400">{item.type}</span>
                         </div>
                     </div>
-                <p>{item.category}</p>
+                    <p className="text-slate-400">{item.category}</p>
                 </div>
                 ))
             }
