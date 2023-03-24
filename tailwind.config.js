@@ -11,6 +11,7 @@ module.exports = {
         Poppins: ["Poppins"],
         Playfair: ["Playfair Display"],
       },
+      
       colors: {
         Jaune: "#D2A700",
         Vert: "#A3BA90",
