@@ -59,7 +59,7 @@ const SongList = () => {
                 sm:text-xs sm:w-80 md:py-3 md:px-3 md:text-sm md:w-11/12 lg:w-96">
                     <div className="flex justify-center items-center gap-2 md:gap-4">
                         <span className="sm:text-sm md:text-base">{item.order}</span>
-                        <div className="rounded-full bg-white h-5 w-5 md:h-12 md:w-12
+                        <div className="rounded-full bg-emerald-200 h-5 w-5 md:h-12 md:w-12
                         sm:h-10 sm:w-10 md:lg:h-12 
                         md:lg:w-12">
                             {/* <img src="" alt="s" /> */}
