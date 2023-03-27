@@ -20,12 +20,12 @@ module.exports = {
         Gris: "#656565",
       },
     },
-     screens: {
-      mobile: '480px',
-      tablette: '768px',
-      laptop: '976px',
-      desktop: '1440px'
-    },
+    //  screens: {
+    //   mobile: '480px',
+    //   tablette: '768px',
+    //   laptop: '976px',
+    //   desktop: '1440px'
+    // },
   },
   plugins: [
     require('tailwind-scrollbar-hide')

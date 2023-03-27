@@ -11,9 +11,9 @@ function dashboard() {
           <Search />
       </div>
       
-      <div className="flex justify-between mb-6">
+      <div className="flex justify-between mb-4">
         <span className="text-lg font-bold">Categories</span>
-        <span className="text-md text-Jaune ">Voir plus</span>
+        <span className="text-md text-Jaune "><a href="#">Voir plus</a></span>
       </div>
       <div className="w-[800px] mb-10">
         <Categories />

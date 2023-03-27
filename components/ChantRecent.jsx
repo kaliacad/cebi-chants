@@ -140,12 +140,12 @@ const ChantRecent = () => {
             chantRecents.map( ( el, ind ) => {
                 return (
                   <div key={ ind } className='text-center'>
-                    <div className='w-24 h-24 tablette:w-36 tablette:h-36 rounded-lg bg-cover'
+                    <div className='w-24 h-24 sm:w-36 sm:h-36 rounded-lg bg-cover cursor-pointer'
                       style={ { backgroundImage: `url(${ el.background })` } }>
                     </div>
                     <div className='flex flex-col'>
-                      <span className='text-[8px] tablette:text-sm font-semi-bold'>{ el.name }</span>
-                      <span className='text-[6px] tablette:text-[10px]'>{ el.categorie }</span>
+                      <span className='text-[8px] sm:text-sm font-semi-bold'>{ el.name }</span>
+                      <span className='text-[6px] sm:text-[10px]'>{ el.categorie }</span>
                     </div>
                 </div>   
                 )})}
