@@ -106,10 +106,10 @@ const ChantPopulaire = () => {
           { chantpopulaires.map( ( el, ind ) => {
             return (
               <div key={ind}>
-                <div className='w-80 h-72 tablette:w-96 tablette:h-80 rounded-xl bg-cover px-2 py-48 text-center'
+                <div className='w-80 h-64 lg:w-96 lg:h-80 rounded-lg bg-cover px-2 py-48 text-center cursor-pointer'
                   style={ { backgroundImage: `url(${ el.background })` } } 
                   >
-                  <span className='text-lg tablette:text-2xl font-bold text-white text-center my-auto'>
+                  <span className='text-lg lg:text-2lg font-bold text-white text-center my-auto'>
                     { el.name }
                   </span> 
                 </div>

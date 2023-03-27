@@ -111,7 +111,7 @@ const Categories = () => {
       { categories.map( ( el, ind ) => {
         return (
           <div key={ind} className=''>
-            <div className={ styles[ el.background ] + ' rounded-lg w-24 h-24 tablette:w-36 tablette:h-36 flex flex-col justify-center items-center gap-2'}>
+            <div className={ styles[ el.background ] + ' rounded-lg w-24 h-24 sm:w-36 sm:h-36 flex flex-col justify-center items-center gap-2 cursor-pointer'}>
             <span>{ el.icon}</span>
             <span className='text-[10px]'>{ el.name}</span>
           </div>

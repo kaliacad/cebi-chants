@@ -9,7 +9,7 @@ export default function Home() {
         <h2 className=" font-normal text-xl ">Recueil de chants chretiens</h2>
       </div>
       <div className=" flex justify-evenly items-center flex-wrap ">
-        <p className=" hidden sm:block sm:w-[30vw] text-sm ">
+        <p className="hidden tablette:block tablette:w-[30vw] text-sm ">
           « Entretenez-vous par des psaumes, par des hymnes, et par des
           cantiques spirituels, chantant et célébrant de tout votre cœur les
           louanges du Seigneur » <span className=" font-Playfair " >Ephésiens 5.19</span>
