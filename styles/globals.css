@@ -17,17 +17,24 @@
     height: 100vh;
     background-repeat: no-repeat;
   }
-    @media (min-width: 840px) {
-      #LandingpageSection {
-          background-image: url('../public/images/Bg.png');
-          width: 100wh;
-          height: 100vh;
-          background-size : contain;
-          background-repeat: no-repeat;
-        }
-    }
-    .gradiant {
-      background: linear-gradient(to right, #e6b800, #b0da4d, #ffffff 50%);
-    }
-      
+
+  .gradiant {
+    background: linear-gradient(to right, #e6b800, #b0da4d , #ffffff 50%);
+  }
+
+  .side-title{
+    font-family: 'Poppins', sans-serif;
+  }
+
+  @media (min-width: 840px) {
+    #LandingpageSection {
+        background-image: url('../public/images/Bg.png');
+        width: 100wh;
+        height: 100vh;
+        background-size : contain;
+        background-repeat: no-repeat;
+      }
+  }  
 }
+
+

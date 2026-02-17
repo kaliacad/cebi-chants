@@ -30,7 +30,7 @@ const menus = [
 
 const NavBar = () => {
   return (
-    <div className="flex fixed z-10 top-[6rem] pt-10 h-[90vh] w-[6rem] flex-col justify-start gap-10 border-r-[1px] border-gray-300">
+    <div className="flex fixed top-[6rem] pt-10 h-[90vh] w-[6rem] flex-col justify-start gap-10 border-r-[1px] border-gray-300">
       {menus.map((elt, index) => {
         return (
           <div
